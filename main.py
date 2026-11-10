@@ -43,9 +43,9 @@ from dotenv import load_dotenv
 # ----------------------------------------------------------------------------
 load_dotenv()
 BASE_DIR = Path(__file__).parent
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+BOT_TOKEN = os.getenv("9072083795:AAFNIkjPB7ycGVH9XiiFP7j1aa59QyeAPck", "").strip()
 # Admin Telegram ID'lari (vergul bilan): ADMIN_IDS=123456,789012
-ADMIN_IDS = {int(x) for x in os.getenv("ADMIN_IDS", "").replace(" ", "").split(",") if x.isdigit()}
+ADMIN_IDS = {int(x) for x in os.getenv("1048256299", "").replace(" ", "").split(",") if x.isdigit()}
 WEBAPP_URL = os.getenv("WEBAPP_URL", "").strip().rstrip("/")  # https://... manzil
 HOST = os.getenv("HOST", "0.0.0.0")
 PORT = int(os.getenv("PORT", "8080"))
