@@ -43,7 +43,7 @@ from dotenv import load_dotenv
 # ----------------------------------------------------------------------------
 load_dotenv()
 BASE_DIR = Path(__file__).parent
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()  # Render: Environment bo'limida BOT_TOKEN ni kiriting
+BOT_TOKEN = os.getenv("9072083795:AAFNIkjPB7ycGVH9XiiFP7j1aa59QyeAPck", "").strip()  # Render: Environment bo'limida BOT_TOKEN ni kiriting
 ADMIN_IDS = {1048256299}  # admin Telegram ID'lari (bir nechta bo'lsa vergul bilan qo'shing)
 ADMIN_IDS |= {int(x) for x in os.getenv("ADMIN_IDS", "").replace(" ", "").split(",") if x.isdigit()}
 WEBAPP_URL = ""  # <-- Mini App uchun https:// manzilni shu yerga yozing (yoki WEBAPP_URL env)
